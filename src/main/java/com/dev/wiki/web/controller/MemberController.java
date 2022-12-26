@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MemberController {
 
-    @GetMapping("/login")
+    @GetMapping("/member/login")
     public String showLoginPage() {
         return "login-page";
     }
