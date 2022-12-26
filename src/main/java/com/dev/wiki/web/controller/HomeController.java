@@ -12,4 +12,8 @@ public class HomeController {
         // 주석 추가
         return "Hello, React!";
     }
+    @GetMapping("/login")
+    public String loginPageView() {
+        return "Hi";
+    }
 }
