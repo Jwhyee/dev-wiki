@@ -1,2 +1,4 @@
-package com.dev.wiki.service.member;public class MemberService {
+package com.dev.wiki.service.member;
+
+public class MemberService {
 }
