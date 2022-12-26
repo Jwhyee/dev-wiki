@@ -9,6 +9,7 @@ public class HomeController {
 
     @GetMapping("/home")
     public String mainPageView() {
+        // 주석 추가
         return "Hello, React!";
     }
 }
