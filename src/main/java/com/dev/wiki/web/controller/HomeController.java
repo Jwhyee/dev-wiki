@@ -7,6 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
+    @GetMapping("/")
+    public String indexPageView() {
+        return "Main Page";
+    }
+
     @GetMapping("/home")
     public String mainPageView() {
         // 주석 추가
