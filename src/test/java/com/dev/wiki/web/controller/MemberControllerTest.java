@@ -29,8 +29,7 @@ class MemberControllerTest {
         mockMvc = MockMvcBuilders.standaloneSetup(memberController).build();
         mockMvc.perform(MockMvcRequestBuilders.get("/member/login"))
                 .andDo(MockMvcResultHandlers.print())
-                .andExpect(MockMvcResultMatchers.status().isOk())
-                .andExpect(MockMvcResultMatchers.content().string("login-page"));
+                .andExpect(MockMvcResultMatchers.status().isOk());
     }
 
 }
